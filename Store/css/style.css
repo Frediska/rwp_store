@@ -1,0 +1,166 @@
+/*title*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+.title_text{
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+}
+
+.title_text h1{
+    color:rgb(103, 10, 139) !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*header*/
+.header_menu{
+    text-align: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+}
+
+.select{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.select:hover {
+    background: linear-gradient(to bottom, #7c4dff, #662ec0);
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+/*tabs*/
+.tabs_profile {
+    display: flex;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+/*profile.php*/
+.profile {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 10px;
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*registration*/
+.registr{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #a5a1a1;
+    border-radius: 4px;
+}
+
+#registr_button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#registr_button:hover {
+    background-color: #329236;
+    transition: 0.5s;
+}
+
+/*tables*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: auto;
+}
+
+td{
+    border: 1px solid grey;
+    text-align: center;
+}
+
+td a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+td a:hover{
+    color: #804cd3;
+    transition: 0.5s;
+}
+
+/*products*/
+.product{
+    padding: 4px;
+    text-align: center;
+}
+
+.product a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+.product a:hover{
+    color: #804cd3;
+    transition: 0.5s;
+}
+
+/*buttons*/
+#tableButton,
+#columnButton {
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#tableButton:hover,
+#columnButton:hover {
+    background-color: #7c4dff;
+    color: #ffff;
+    transition: .9s;
+}
